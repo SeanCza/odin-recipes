@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(42,42,42);
+    color:aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+header {
+    text-align: center;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(65,65,65);
+
+}
+
+
+
+h1 {
+    text-align: center;
+    background-color: black;
+    font-size:4em;
+    text-decoration: none;
+    color: white;
+}
+
+h1:hover {
+    background-color: rgb(10, 87, 255);
+}
+
+main {
+    background-color: rgb(100,100,100); 
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top:1rem; */
+    padding-bottom: 50%;
+}
+
+main a {
+    background-color: yellow;
+    text-decoration: none;
+    color: black;
+}
+
+main a:hover {
+    color:rebeccapurple;
+    text-decoration: underline;
+    background-color: red;
+}
+
+main img {
+    width: 100%;
+    height:auto;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description {
+    width: 95%;
+    background-color: rgba(0, 0, 0, 0.318);
+    font-size: 1.25rem;
+    padding: 1rem
+}
+
+.list{
+    font-size: 2rem;
+    width:50%;
+    margin-left:10%;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+li {
+    margin-bottom: .5em;
+    font-size: .5em;
+    color: black;
+    padding: 1em;
+}
+
+.ingredients {
+    background-color: greenyellow;
+}
+
+.ingredients li {
+    background-color: beige;
+}
+
+.steps {
+    background-color: orangered;
+}
+
+.steps li {
+    background-color: blueviolet;
+}
+
+
+
+
